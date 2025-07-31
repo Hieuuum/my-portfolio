@@ -7,7 +7,7 @@ const About = () => {
 	};
 
 	const handleDownloadCV = () => {
-		window.open("/resume.pdf", "_blank");
+		window.open("/my-resume.pdf", "_blank");
 	};
 
 	return (

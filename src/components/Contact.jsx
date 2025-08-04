@@ -25,25 +25,25 @@ const Contact = () => {
 
 	const contactInfo = [
 		{
-			icon: "📧",
+			iconFile: "email.svg",
 			label: "Email",
 			value: "nguyenv@union.edu",
 			link: "mailto:nguyenv@union.edu",
 		},
 		{
-			icon: "💼",
+			iconFile: "linkedin.svg",
 			label: "LinkedIn",
 			value: "linkedin.com/in/hieu-nguyen-9a072b336/",
 			link: "https://www.linkedin.com/in/hieu-nguyen-9a072b336/",
 		},
 		{
-			icon: "🐙",
+			iconFile: "github.svg",
 			label: "GitHub",
 			value: "github.com/Hieuuum",
 			link: "https://github.com/Hieuuum",
 		},
 		// {
-		// 	icon: "📱",
+		// 	iconFile: "📱",
 		// 	label: "Phone",
 		// 	value: "+1 (555) 123-4567",
 		// 	link: "tel:+15551234567",
@@ -78,7 +78,10 @@ const Contact = () => {
 									href={info.link}
 									className="flex items-center p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
 								>
-									<span className="text-2xl mr-4">{info.icon}</span>
+									<img
+										className="text-2xl mr-4 w-10 h-10"
+										src={info.iconFile}
+									/>
 									<div>
 										<p className="font-medium text-gray-900">{info.label}</p>
 										<p className="text-blue-600">{info.value}</p>

@@ -22,7 +22,7 @@ const Projects = () => {
 			featured: true,
 		},
 		{
-			title: "Chrono Locus",
+			title: "The Anvil",
 			description:
 				"A productivity app that guides you through timed work and break cycles using the Pomodoro Technique to help you achieve deep focus.",
 			iconSrc: "/pomodoro-icon.png",
@@ -35,8 +35,8 @@ const Projects = () => {
 				"PostgreSQL",
 				"TailwindCSS",
 			],
-			liveUrl: "#",
-			githubUrl: "https://github.com/Hieuuum/chrono-locus",
+			liveUrl: "https://the-anvil.vercel.app",
+			githubUrl: "https://github.com/Hieuuum/the-anvil",
 			featured: true,
 		},
 	];

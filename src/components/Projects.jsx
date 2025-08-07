@@ -9,7 +9,6 @@ const Projects = () => {
 			iconSrc:
 				"https://cdn-editing-temp.picsart.com/editing-temp-landings/30026655-975b-4ebd-93a4-61fd399bc5fb.png",
 			technologies: [
-				"React.js",
 				"JavaScript",
 				"Node.js",
 				"Express",
@@ -34,6 +33,26 @@ const Projects = () => {
 				"SupaBase",
 				"PostgreSQL",
 				"TailwindCSS",
+				"OpenAI API",
+			],
+			liveUrl: "https://the-anvil.vercel.app",
+			githubUrl: "https://github.com/Hieuuum/the-anvil",
+			featured: true,
+		},
+		{
+			title: "Culinary Alchemy",
+			description:
+				"A recipe app that generates cooking instructions based on provided ingredients.",
+			iconSrc: "/recipe-icon.png",
+			technologies: [
+				"React.js",
+				"JavaScript",
+				"Node.js",
+				"Express",
+				"SupaBase",
+				"PostgreSQL",
+				"TailwindCSS",
+				"OpenAI API",
 			],
 			liveUrl: "https://the-anvil.vercel.app",
 			githubUrl: "https://github.com/Hieuuum/the-anvil",
